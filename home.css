@@ -1,0 +1,72 @@
+/* Content1 Section */
+.content1{
+	background-image: url(Images/pic1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 640px;
+}
+
+/* Navbar Section */
+.navbar-logo{
+	background-color: #ff8177;
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb1 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+nav ul li{
+	display: inline;
+}
+
+ul{
+	padding: 20px;
+}
+
+/* Background Img Text Section */
+section{
+	margin-left: 120px;
+	margin-top: 100px;
+}
+
+@media screen and (max-width: 992px){
+	section{
+		margin-left: 50px;
+	}
+	section h2{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	section{
+		margin-left: 20px;
+	}
+	section h2{
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 570px){
+	section p{
+		font-size: 17px;
+	}
+}
+
+p{
+	margin: 0;
+	font-size: 18px;
+}
+
+button{
+	font-size: 19px;
+	border: none;
+	border-radius: 30px;
+	padding: 6px 12px;
+	margin-top: 10px;
+}
