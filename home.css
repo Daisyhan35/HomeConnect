@@ -147,6 +147,62 @@ button{
 	}
 }
 
+
+
+/* Connect.Html Section */
+
+/* Content2 Section */
+.content2{
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+.image{
+	display: flex;
+	margin-bottom: 30px;
+	height: 330px;
+}
+
+@media screen and (max-width: 900px){
+	.image{
+		display: inline-block;
+		margin-top: 30px;
+	}
+}
+
+.content2 img{
+	margin-right: 20px;
+	border-radius: 5px;
+	width: 40%;
+}
+
+@media screen and (max-width: 900px){
+	.content2 img{
+		height: 210px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.content2 img{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.content2 img{
+		width: 70%;
+	}
+}
+
+.content2 h1{
+	font-size: 30px;
+}
+
+.content2 p{
+	font-size: 17px;
+}
+
 /* Footer Section */
 footer .navbar{
 	margin: 50px 100px;
@@ -235,7 +291,4 @@ span:nth-child(1){
 span:nth-child(2){
 	padding-top: 10px;
 }
-
-
-
 
