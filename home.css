@@ -155,13 +155,11 @@ button{
 .content2{
 	margin-top: 20px;
 	margin-left: 30px;
-	margin-right: 50px;
+	margin-right: 52px;
 }
 
 .image{
 	display: flex;
-	margin-bottom: 30px;
-	height: 330px;
 }
 
 @media screen and (max-width: 900px){
@@ -174,24 +172,18 @@ button{
 .content2 img{
 	margin-right: 20px;
 	border-radius: 5px;
-	width: 40%;
+	width: 55%;
 }
 
 @media screen and (max-width: 900px){
 	.content2 img{
-		height: 210px;
-	}
-}
-
-@media screen and (max-width: 700px){
-	.content2 img{
-		width: 50%;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width: 550px){
 	.content2 img{
-		width: 70%;
+		width: 107%;
 	}
 }
 
